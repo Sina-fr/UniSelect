@@ -1,0 +1,19 @@
+[project]
+name = "uniselect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "M.A.Mohammaadi", email = "amin.mohammadii.dev@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+uniselect = "uniselect:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
