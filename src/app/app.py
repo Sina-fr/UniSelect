@@ -1,3 +1,10 @@
+"""
+UniSelect Streamlit application.
+
+Provides a simple web interface for uploading an Excel-based unit selection
+table, previewing its contents, and saving it to the local data directory.
+"""
+
 import os
 
 import pandas as pd
@@ -9,6 +16,11 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 
 def main():
+    """Run the UniSelect Streamlit page for uploading and saving unit selection tables.
+
+    Allows the user to upload an Excel file, preview it in the browser, and
+    persist it to the project's data directory.
+    """
     st.title("UviSelect")
 
     uploaded_file = st.file_uploader("Unit selection table", type=["xlsx", "xls"])
