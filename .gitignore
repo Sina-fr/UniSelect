@@ -1,3 +1,6 @@
+# Data Directory
+src/data
+
 # Agent Configuration
 .kilo
 
