@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-uniselect = "uniselect:main"
+uniselect = "app:main"
 
 [build-system]
 requires = ["uv_build>=0.12.6,<0.13.0"]
